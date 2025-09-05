@@ -80,6 +80,8 @@ python trainingYolo.py --data yolo_dataset.yaml --weights yolov8n.pt --epochs 50
 
 ## Notes
 
+- Change all absolute paths to local paths in the code
+
 - GPT-OSS requires a Hugging Face API token set as HF_API_TOKEN.
 
 - Live webcam detection may be slower and sometimes misclassifies objects.
